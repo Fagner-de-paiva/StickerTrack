@@ -2,6 +2,8 @@ package com.example.stickertrack
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity : AppCompatActivity() {
@@ -10,10 +12,21 @@ class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
+        setContentView(R.layout.activity_splash)
 
-        finish()
+        Handler(Looper.getMainLooper()).postDelayed({
+
+            startActivity(
+                Intent(
+                    this,
+                    MainActivity::class.java
+                )
+            )
+
+            finish()
+
+        }, 2000)
+
     }
 
 

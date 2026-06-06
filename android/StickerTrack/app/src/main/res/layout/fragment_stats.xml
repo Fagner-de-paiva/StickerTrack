@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estatísticas do Álbum"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Total de Figurinhas: 0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textColadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coladas: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/textRepetidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repetidas: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>
