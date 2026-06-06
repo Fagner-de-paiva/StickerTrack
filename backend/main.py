@@ -62,3 +62,28 @@ def delete_sticker(sticker_id: int):
     return {
         "message": "Figurinha não encontrada"
     }
+
+@app.put("/stickers/{sticker_id}")
+
+def update_sticker(
+sticker_id: int
+):
+    db: Session = SessionLocal()
+
+    sticker = db.query(Sticker).filter(
+            Sticker.id == sticker_id
+        ).first()
+
+    if sticker:
+
+        sticker.colada = True
+
+        db.commit()
+
+        db.refresh(sticker)
+
+        return sticker
+
+    return {
+        "erro": "Figurinha não encontrada"
+    }

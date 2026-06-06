@@ -7,6 +7,7 @@ import retrofit2.http.DELETE
 import retrofit2.http.Path
 import retrofit2.http.GET
 import retrofit2.http.POST
+import retrofit2.http.PUT
 
 interface ApiService {
 
@@ -23,6 +24,11 @@ interface ApiService {
     fun deleteSticker(
         @Path("id") id: Int
     ): Call<Map<String, String>>
+
+    @PUT("stickers/{id}")
+    fun marcarComoColada(
+        @Path("id") id: Int
+    ): Call<Sticker>
 
 
 }

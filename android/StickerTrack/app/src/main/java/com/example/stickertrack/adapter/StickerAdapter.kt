@@ -37,6 +37,11 @@ class StickerAdapter(
         val btnDelete: Button =
             itemView.findViewById(R.id.btnDelete)
 
+        val btnColada = holder.itemView.findViewById<Button>(
+                R.id.btnColada
+            )
+
+
     }
 
     override fun onCreateViewHolder(
@@ -112,6 +117,44 @@ class StickerAdapter(
             }
 
         }
+        btnColada.setOnClickListener {
+
+
+            RetrofitClient.api
+                .marcarComoColada(
+                    sticker.id
+                )
+                .enqueue(
+                    object : Callback<Sticker> {
+
+                        override fun onResponse(
+                            call: Call<Sticker>,
+                            response: Response<Sticker>
+                        ) {
+
+                            if (response.isSuccessful) {
+
+                                sticker.colada = true
+
+                                notifyItemChanged(position)
+
+                            }
+
+                        }
+
+                        override fun onFailure(
+                            call: Call<Sticker>,
+                            t: Throwable
+                        ) {
+
+                        }
+
+                    }
+                )
+
+
+        }
+
 
     }
 
