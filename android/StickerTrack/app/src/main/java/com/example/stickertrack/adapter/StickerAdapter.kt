@@ -34,6 +34,10 @@ class StickerAdapter(
         val textRaridade: TextView =
             itemView.findViewById(R.id.textRaridade)
 
+        val textStatus: TextView =
+            itemView.findViewById(R.id.textStatus)
+
+
         val btnDelete: Button =
             itemView.findViewById(R.id.btnDelete)
 
@@ -74,6 +78,34 @@ class StickerAdapter(
 
         holder.textRaridade.text =
             "Raridade: ${sticker.raridade}"
+
+        if (sticker.colada) {
+
+            
+            holder.textStatus.text =
+                "Status: Colada ✅"
+
+            holder.btnColada.text =
+                "COLADA"
+
+            holder.btnColada.isEnabled = false
+
+
+        } else {
+
+
+            holder.textStatus.text =
+                "Status: Não colada ❌"
+
+            holder.btnColada.text =
+                "Marcar como colada"
+
+            holder.btnColada.isEnabled = true
+
+
+        }
+
+
 
         holder.btnDelete.setOnClickListener {
 
