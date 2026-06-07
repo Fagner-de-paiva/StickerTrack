@@ -27,7 +27,7 @@ interface ApiService {
 
     @PUT("stickers/{id}")
     fun marcarComoColada(
-        @Path("id") id: Int
+        @Path("id") id: Int?
     ): Call<Sticker>
 
 

@@ -37,9 +37,9 @@ class StickerAdapter(
         val btnDelete: Button =
             itemView.findViewById(R.id.btnDelete)
 
-        val btnColada = holder.itemView.findViewById<Button>(
-                R.id.btnColada
-            )
+        val btnColada: Button =
+            itemView.findViewById(R.id.btnColada)
+
 
 
     }
@@ -117,7 +117,7 @@ class StickerAdapter(
             }
 
         }
-        btnColada.setOnClickListener {
+        holder.btnColada.setOnClickListener {
 
 
             RetrofitClient.api

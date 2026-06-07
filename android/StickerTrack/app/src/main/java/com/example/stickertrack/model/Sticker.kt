@@ -10,7 +10,7 @@ data class Sticker(
     val raridade: String,
 
     val tenho: Boolean,
-    val colada: Boolean,
+    var colada: Boolean,
     val repetida: Boolean
 
 
