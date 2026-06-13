@@ -6,7 +6,6 @@ import com.example.stickertrack.fragments.StatsFragment
 
 class StatsActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,6 +19,4 @@ class StatsActivity : AppCompatActivity() {
             .commit()
 
     }
-
-
 }

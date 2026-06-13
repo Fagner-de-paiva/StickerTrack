@@ -5,14 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:gravity="center_horizontal"
+    android:padding="24dp">
 
-    ```
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="StickerTrack"
-        android:textSize="32sp"/>
+        android:text="⚽ StickerTrack"
+        android:textSize="32sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gerencie sua coleção de figurinhas"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btnAddSticker"
@@ -24,13 +33,21 @@
         android:id="@+id/btnList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Minhas Figurinhas"/>
+        android:text="Minhas Figurinhas"
+        android:layout_marginTop="8dp"/>
 
     <Button
         android:id="@+id/btnStats"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Estatísticas"/>
-    ```
+        android:text="Estatísticas"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartilhar Coleção"
+        android:layout_marginTop="8dp"/>
 
 </LinearLayout>

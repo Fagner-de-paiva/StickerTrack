@@ -34,8 +34,23 @@ class StatsFragment : Fragment() {
         val textColadas =
             view.findViewById<TextView>(R.id.textColadas)
 
+        val textNaoColadas =
+            view.findViewById<TextView>(R.id.textNaoColadas)
+
         val textRepetidas =
             view.findViewById<TextView>(R.id.textRepetidas)
+
+        val textUnicas =
+            view.findViewById<TextView>(R.id.textUnicas)
+
+        val textProgresso =
+            view.findViewById<TextView>(R.id.textProgresso)
+
+        val progressAlbum =
+            view.findViewById<android.widget.ProgressBar>(
+                R.id.progressAlbum
+            )
+
 
         RetrofitClient.api.getStickers()
             .enqueue(object : Callback<List<Sticker>> {
@@ -58,10 +73,23 @@ class StatsFragment : Fragment() {
                                 it.colada
                             }
 
+                        val naoColadas =
+                            total - coladas
+
                         val repetidas =
                             stickers.count {
                                 it.repetida
                             }
+
+                        val unicas =
+                            total - repetidas
+
+                        val progresso =
+                            if (total > 0)
+                                (coladas * 100) / total
+                            else
+                                0
+
 
                         textTotal.text =
                             "Total de Figurinhas: $total"
@@ -69,8 +97,20 @@ class StatsFragment : Fragment() {
                         textColadas.text =
                             "Coladas: $coladas"
 
+                        textNaoColadas.text =
+                            "Não Coladas: $naoColadas"
+
                         textRepetidas.text =
                             "Repetidas: $repetidas"
+
+                        textUnicas.text =
+                            "Únicas: $unicas"
+
+                        textProgresso.text =
+                            "Progresso: $progresso%"
+
+                        progressAlbum.progress =
+                            progresso
 
                     }
 
@@ -91,6 +131,4 @@ class StatsFragment : Fragment() {
         return view
 
     }
-
-
 }

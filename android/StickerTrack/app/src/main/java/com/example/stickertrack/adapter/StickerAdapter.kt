@@ -81,7 +81,7 @@ class StickerAdapter(
 
         if (sticker.colada) {
 
-            
+
             holder.textStatus.text =
                 "Status: Colada ✅"
 
