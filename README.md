@@ -105,23 +105,23 @@ http://127.0.0.1:8000/docs
 
 ### Splash Screen
 
-<img width="500" height="1000" alt="Splash-Screen" src="https://github.com/user-attachments/assets/f2789c7a-fa44-42c4-adac-14180dad8702" />
+<img width="200" height="500" alt="Splash-Screen" src="https://github.com/user-attachments/assets/f2789c7a-fa44-42c4-adac-14180dad8702" />
 
 
 
 ### Tela Principal
 
-<img width="1080" height="2188" alt="Tela-Principal" src="https://github.com/user-attachments/assets/29ec8ccd-8e54-40b0-ba3a-dbe95ab64ef7" />
+<img width="200" height="500" alt="Tela-Principal" src="https://github.com/user-attachments/assets/29ec8ccd-8e54-40b0-ba3a-dbe95ab64ef7" />
 
 
 ### Minhas Figurinhas
 
-<img width="1080" height="2191" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
+<img width="200" height="500" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
 
 
 ### Estatísticas
 
-<img width="1080" height="2191" alt="Estatisticas" src="https://github.com/user-attachments/assets/ca5c0674-d910-41b1-a391-a4d27b8f0fae" />
+<img width="200" height="500" alt="Estatisticas" src="https://github.com/user-attachments/assets/ca5c0674-d910-41b1-a391-a4d27b8f0fae" />
 
 
 
