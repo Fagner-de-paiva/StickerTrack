@@ -111,17 +111,17 @@ http://127.0.0.1:8000/docs
 
 ### Tela Principal
 
-<img width="200" height="350" alt="Tela-Principal" src="https://github.com/user-attachments/assets/29ec8ccd-8e54-40b0-ba3a-dbe95ab64ef7" />
+<img width="200" height="400" alt="Tela-Principal" src="https://github.com/user-attachments/assets/29ec8ccd-8e54-40b0-ba3a-dbe95ab64ef7" />
 
 
 ### Minhas Figurinhas
 
-<img width="200" height="500" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
+<img width="200" height="400" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
 
 
 ### Estatísticas
 
-<img width="200" height="500" alt="Estatisticas" src="https://github.com/user-attachments/assets/ca5c0674-d910-41b1-a391-a4d27b8f0fae" />
+<img width="200" height="400" alt="Estatisticas" src="https://github.com/user-attachments/assets/ca5c0674-d910-41b1-a391-a4d27b8f0fae" />
 
 
 
