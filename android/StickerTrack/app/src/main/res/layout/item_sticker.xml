@@ -8,7 +8,7 @@
     android:layout_margin="8dp"
     app:cardCornerRadius="12dp">
 
-    ```
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -35,6 +35,7 @@
             android:id="@+id/textRaridade"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+
         <TextView
             android:id="@+id/textStatus"
             android:layout_width="wrap_content"
@@ -48,6 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Excluir"/>
+
         <Button
             android:id="@+id/btnColada"
             android:layout_width="match_parent"
@@ -58,6 +60,6 @@
 
 
     </LinearLayout>
-    ```
+
 
 </androidx.cardview.widget.CardView>
