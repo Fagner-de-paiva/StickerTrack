@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitClient {
 
 
-    private const val BASE_URL = "http://192.168.0.107:8000/"
+    private const val BASE_URL = "https://stickertrack.onrender.com/"
 
     val api: ApiService by lazy {
 
