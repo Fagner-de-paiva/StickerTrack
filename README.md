@@ -118,17 +118,17 @@ https://stickertrack.onrender.com/docs
 
 <img width="200" height="400" alt="Splash-Screen" src="https://github.com/user-attachments/assets/f2789c7a-fa44-42c4-adac-14180dad8702" />
 
-
-
 ### Tela Principal
 
-<img width="200" height="400" alt="Tela-Principal" src="https://github.com/user-attachments/assets/29ec8ccd-8e54-40b0-ba3a-dbe95ab64ef7" />
+<img width="200" height="400" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
 
+### Adicionar Figurinhas
+
+<img width="200" height="400" alt="Adicionar-Sticker" src="https://github.com/user-attachments/assets/17301d12-7a58-4c48-9b14-9593d783a93d" />
 
 ### Minhas Figurinhas
 
 <img width="200" height="400" alt="Estatisticas" src="https://github.com/user-attachments/assets/73039305-d0b7-48ef-b290-e09388cea31d" />
-
 
 ### Estatísticas
 
