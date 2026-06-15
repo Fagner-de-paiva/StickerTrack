@@ -101,6 +101,17 @@ http://127.0.0.1:8000/docs
 
 ---
 
+## Deploy da API
+
+A API foi publicada em ambiente de nuvem utilizando Render.
+
+URL da API:
+https://stickertrack.onrender.com
+
+Documentação Swagger:
+https://stickertrack.onrender.com/docs
+
+
 ## Capturas de Tela
 
 ### Splash Screen
